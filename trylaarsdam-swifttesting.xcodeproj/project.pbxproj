@@ -14,6 +14,7 @@
 		33BCD262273D9F3600F3FFFB /* trylaarsdam_swifttestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD261273D9F3600F3FFFB /* trylaarsdam_swifttestingTests.swift */; };
 		33BCD26C273D9F3600F3FFFB /* trylaarsdam_swifttestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD26B273D9F3600F3FFFB /* trylaarsdam_swifttestingUITests.swift */; };
 		33BCD26E273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD26D273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift */; };
+		33BCD27B2740C01600F3FFFB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD27A2740C01600F3FFFB /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		33BCD267273D9F3600F3FFFB /* trylaarsdam-swifttestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trylaarsdam-swifttestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BCD26B273D9F3600F3FFFB /* trylaarsdam_swifttestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingUITests.swift; sourceTree = "<group>"; };
 		33BCD26D273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33BCD27A2740C01600F3FFFB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */,
 				33BCD252273D9F3500F3FFFB /* ContentView.swift */,
+				33BCD27A2740C01600F3FFFB /* CircleImage.swift */,
 				33BCD254273D9F3600F3FFFB /* Assets.xcassets */,
 				33BCD256273D9F3600F3FFFB /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				33BCD253273D9F3500F3FFFB /* ContentView.swift in Sources */,
 				33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */,
+				33BCD27B2740C01600F3FFFB /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
