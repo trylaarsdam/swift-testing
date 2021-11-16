@@ -7,7 +7,14 @@
 
 import SwiftUI
 
+
 struct MainView: View {
+    @State private var showingSheet = false
+
+    func toggleSheet() {
+        showingSheet.toggle()
+    }
+    
     var body: some View {
         TabView {
             ParamsTab()
@@ -24,7 +31,14 @@ struct MainView: View {
               .tabItem {
                  Image(systemName: "esim")
                  Text("Connect")
-            }
+              }
+//            toggleSheet()
+//                .tabItem {
+//                    Image(systemName: "antenna.radiowaves.left.and.right.circle.fill")
+//                        .font(.system(size: 80))
+//                }
+        }.sheet(isPresented: $showingSheet) {
+            TransmitMenu()
         }
     }
 }
