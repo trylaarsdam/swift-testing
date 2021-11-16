@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */; };
-		33BCD253273D9F3500F3FFFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD252273D9F3500F3FFFB /* ContentView.swift */; };
+		33BCD253273D9F3500F3FFFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD252273D9F3500F3FFFB /* MainView.swift */; };
 		33BCD255273D9F3600F3FFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCD254273D9F3600F3FFFB /* Assets.xcassets */; };
 		33BCD258273D9F3600F3FFFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCD257273D9F3600F3FFFB /* Preview Assets.xcassets */; };
 		33BCD262273D9F3600F3FFFB /* trylaarsdam_swifttestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD261273D9F3600F3FFFB /* trylaarsdam_swifttestingTests.swift */; };
 		33BCD26C273D9F3600F3FFFB /* trylaarsdam_swifttestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD26B273D9F3600F3FFFB /* trylaarsdam_swifttestingUITests.swift */; };
 		33BCD26E273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD26D273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift */; };
-		33BCD27B2740C01600F3FFFB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD27A2740C01600F3FFFB /* CircleImage.swift */; };
+		33BCD27B2740C01600F3FFFB /* CircleTempImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD27A2740C01600F3FFFB /* CircleTempImage.swift */; };
+		33BCD27E27443D6A00F3FFFB /* ParamsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD27D27443D6A00F3FFFB /* ParamsTab.swift */; };
+		33BCD28127443EA900F3FFFB /* StatusTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD28027443EA900F3FFFB /* StatusTab.swift */; };
+		33BCD283274440E800F3FFFB /* ConnectTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD282274440E800F3FFFB /* ConnectTab.swift */; };
+		33BCD286274442BE00F3FFFB /* ParameterLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD285274442BE00F3FFFB /* ParameterLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		33BCD24D273D9F3500F3FFFB /* trylaarsdam-swifttesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trylaarsdam-swifttesting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingApp.swift; sourceTree = "<group>"; };
-		33BCD252273D9F3500F3FFFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33BCD252273D9F3500F3FFFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		33BCD254273D9F3600F3FFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33BCD257273D9F3600F3FFFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33BCD25D273D9F3600F3FFFB /* trylaarsdam-swifttestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trylaarsdam-swifttestingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +49,11 @@
 		33BCD267273D9F3600F3FFFB /* trylaarsdam-swifttestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trylaarsdam-swifttestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BCD26B273D9F3600F3FFFB /* trylaarsdam_swifttestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingUITests.swift; sourceTree = "<group>"; };
 		33BCD26D273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		33BCD27A2740C01600F3FFFB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		33BCD27A2740C01600F3FFFB /* CircleTempImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTempImage.swift; sourceTree = "<group>"; };
+		33BCD27D27443D6A00F3FFFB /* ParamsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamsTab.swift; sourceTree = "<group>"; };
+		33BCD28027443EA900F3FFFB /* StatusTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTab.swift; sourceTree = "<group>"; };
+		33BCD282274440E800F3FFFB /* ConnectTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectTab.swift; sourceTree = "<group>"; };
+		33BCD285274442BE00F3FFFB /* ParameterLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +104,11 @@
 		33BCD24F273D9F3500F3FFFB /* trylaarsdam-swifttesting */ = {
 			isa = PBXGroup;
 			children = (
+				33BCD2842744428600F3FFFB /* Components */,
+				33BCD27F27443D7500F3FFFB /* Tabs */,
+				33BCD27C27443CA400F3FFFB /* TempObjects */,
 				33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */,
-				33BCD252273D9F3500F3FFFB /* ContentView.swift */,
-				33BCD27A2740C01600F3FFFB /* CircleImage.swift */,
+				33BCD252273D9F3500F3FFFB /* MainView.swift */,
 				33BCD254273D9F3600F3FFFB /* Assets.xcassets */,
 				33BCD256273D9F3600F3FFFB /* Preview Content */,
 			);
@@ -128,6 +138,32 @@
 				33BCD26D273D9F3600F3FFFB /* trylaarsdam_swifttestingUITestsLaunchTests.swift */,
 			);
 			path = "trylaarsdam-swifttestingUITests";
+			sourceTree = "<group>";
+		};
+		33BCD27C27443CA400F3FFFB /* TempObjects */ = {
+			isa = PBXGroup;
+			children = (
+				33BCD27A2740C01600F3FFFB /* CircleTempImage.swift */,
+			);
+			path = TempObjects;
+			sourceTree = "<group>";
+		};
+		33BCD27F27443D7500F3FFFB /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				33BCD27D27443D6A00F3FFFB /* ParamsTab.swift */,
+				33BCD28027443EA900F3FFFB /* StatusTab.swift */,
+				33BCD282274440E800F3FFFB /* ConnectTab.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		33BCD2842744428600F3FFFB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				33BCD285274442BE00F3FFFB /* ParameterLine.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BCD253273D9F3500F3FFFB /* ContentView.swift in Sources */,
+				33BCD253273D9F3500F3FFFB /* MainView.swift in Sources */,
+				33BCD28127443EA900F3FFFB /* StatusTab.swift in Sources */,
+				33BCD283274440E800F3FFFB /* ConnectTab.swift in Sources */,
+				33BCD27E27443D6A00F3FFFB /* ParamsTab.swift in Sources */,
 				33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */,
-				33BCD27B2740C01600F3FFFB /* CircleImage.swift in Sources */,
+				33BCD27B2740C01600F3FFFB /* CircleTempImage.swift in Sources */,
+				33BCD286274442BE00F3FFFB /* ParameterLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

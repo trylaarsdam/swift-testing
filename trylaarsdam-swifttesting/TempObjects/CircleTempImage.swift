@@ -1,5 +1,5 @@
 //
-//  CircleImage.swift
+//  CircleTempImage.swift
 //  trylaarsdam-swifttesting
 //
 //  Created by Todd Rylaarsdam on 11/13/21.
@@ -7,16 +7,18 @@
 
 import SwiftUI
 
-struct CircleImage: View {
+struct CircleTempImage: View {
     var body: some View {
         Image("BlueAbstract")
+            .resizable()
             .clipShape(Circle())
-            .frame(width: 30, height: 30)
+            .frame(width: 80, height: 100)
+            .overlay(Circle().stroke(Color.gray, lineWidth: 4))
     }
 }
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        CircleTempImage()
     }
 }

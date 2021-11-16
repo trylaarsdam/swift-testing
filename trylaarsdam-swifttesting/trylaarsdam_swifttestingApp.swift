@@ -11,7 +11,7 @@ import SwiftUI
 struct trylaarsdam_swifttestingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
