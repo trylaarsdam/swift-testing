@@ -19,6 +19,7 @@
 		33BCD28127443EA900F3FFFB /* StatusTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD28027443EA900F3FFFB /* StatusTab.swift */; };
 		33BCD283274440E800F3FFFB /* ConnectTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD282274440E800F3FFFB /* ConnectTab.swift */; };
 		33BCD286274442BE00F3FFFB /* ParameterLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD285274442BE00F3FFFB /* ParameterLine.swift */; };
+		33BCD2882744464900F3FFFB /* RoundedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD2872744464900F3FFFB /* RoundedBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		33BCD28027443EA900F3FFFB /* StatusTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTab.swift; sourceTree = "<group>"; };
 		33BCD282274440E800F3FFFB /* ConnectTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectTab.swift; sourceTree = "<group>"; };
 		33BCD285274442BE00F3FFFB /* ParameterLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterLine.swift; sourceTree = "<group>"; };
+		33BCD2872744464900F3FFFB /* RoundedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				33BCD285274442BE00F3FFFB /* ParameterLine.swift */,
+				33BCD2872744464900F3FFFB /* RoundedBorder.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				33BCD283274440E800F3FFFB /* ConnectTab.swift in Sources */,
 				33BCD27E27443D6A00F3FFFB /* ParamsTab.swift in Sources */,
 				33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */,
+				33BCD2882744464900F3FFFB /* RoundedBorder.swift in Sources */,
 				33BCD27B2740C01600F3FFFB /* CircleTempImage.swift in Sources */,
 				33BCD286274442BE00F3FFFB /* ParameterLine.swift in Sources */,
 			);
