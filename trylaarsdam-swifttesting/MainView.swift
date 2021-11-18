@@ -18,6 +18,7 @@ struct MainView: View {
     var body: some View {
         TabView {
             ParamsTab()
+            
              .tabItem {
                 Image(systemName: "gearshape.2.fill")
                 Text("Params")
@@ -32,6 +33,7 @@ struct MainView: View {
                  Image(systemName: "esim")
                  Text("Connect")
               }
+            ConnectTab()
 //            toggleSheet()
 //                .tabItem {
 //                    Image(systemName: "antenna.radiowaves.left.and.right.circle.fill")

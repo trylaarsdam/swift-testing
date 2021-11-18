@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		337BEABB2746F159008077CC /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEABA2746F159008077CC /* AppColors.swift */; };
+		337BEABD2746F2D4008077CC /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEABC2746F2D4008077CC /* TitleBar.swift */; };
 		33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */; };
 		33BCD253273D9F3500F3FFFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD252273D9F3500F3FFFB /* MainView.swift */; };
 		33BCD255273D9F3600F3FFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCD254273D9F3600F3FFFB /* Assets.xcassets */; };
@@ -22,6 +24,7 @@
 		33BCD2882744464900F3FFFB /* RoundedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD2872744464900F3FFFB /* RoundedBorder.swift */; };
 		33ED495A27444E3D0063D6A1 /* TransmitFAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED495927444E3D0063D6A1 /* TransmitFAB.swift */; };
 		33ED495D27444FC00063D6A1 /* TransmitMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED495C27444FC00063D6A1 /* TransmitMenu.swift */; };
+		33ED495F274456830063D6A1 /* TransmitPayloadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED495E274456830063D6A1 /* TransmitPayloadRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337BEABA2746F159008077CC /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		337BEABC2746F2D4008077CC /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
 		33BCD24D273D9F3500F3FFFB /* trylaarsdam-swifttesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trylaarsdam-swifttesting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingApp.swift; sourceTree = "<group>"; };
 		33BCD252273D9F3500F3FFFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -60,6 +65,7 @@
 		33BCD2872744464900F3FFFB /* RoundedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorder.swift; sourceTree = "<group>"; };
 		33ED495927444E3D0063D6A1 /* TransmitFAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmitFAB.swift; sourceTree = "<group>"; };
 		33ED495C27444FC00063D6A1 /* TransmitMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmitMenu.swift; sourceTree = "<group>"; };
+		33ED495E274456830063D6A1 /* TransmitPayloadRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmitPayloadRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 				33BCD252273D9F3500F3FFFB /* MainView.swift */,
 				33BCD254273D9F3600F3FFFB /* Assets.xcassets */,
 				33BCD256273D9F3600F3FFFB /* Preview Content */,
+				337BEABA2746F159008077CC /* AppColors.swift */,
 			);
 			path = "trylaarsdam-swifttesting";
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 				33BCD285274442BE00F3FFFB /* ParameterLine.swift */,
 				33BCD2872744464900F3FFFB /* RoundedBorder.swift */,
 				33ED495927444E3D0063D6A1 /* TransmitFAB.swift */,
+				33ED495E274456830063D6A1 /* TransmitPayloadRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				33ED495C27444FC00063D6A1 /* TransmitMenu.swift */,
+				337BEABC2746F2D4008077CC /* TitleBar.swift */,
 			);
 			path = Menus;
 			sourceTree = "<group>";
@@ -314,13 +323,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				33BCD253273D9F3500F3FFFB /* MainView.swift in Sources */,
+				33ED495F274456830063D6A1 /* TransmitPayloadRow.swift in Sources */,
 				33BCD28127443EA900F3FFFB /* StatusTab.swift in Sources */,
 				33BCD283274440E800F3FFFB /* ConnectTab.swift in Sources */,
 				33BCD27E27443D6A00F3FFFB /* ParamsTab.swift in Sources */,
+				337BEABD2746F2D4008077CC /* TitleBar.swift in Sources */,
 				33ED495D27444FC00063D6A1 /* TransmitMenu.swift in Sources */,
 				33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */,
 				33BCD2882744464900F3FFFB /* RoundedBorder.swift in Sources */,
 				33BCD27B2740C01600F3FFFB /* CircleTempImage.swift in Sources */,
+				337BEABB2746F159008077CC /* AppColors.swift in Sources */,
 				33ED495A27444E3D0063D6A1 /* TransmitFAB.swift in Sources */,
 				33BCD286274442BE00F3FFFB /* ParameterLine.swift in Sources */,
 			);

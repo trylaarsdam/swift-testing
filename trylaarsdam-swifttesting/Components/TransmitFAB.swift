@@ -16,6 +16,15 @@ struct TransmitFAB: View {
     @State private var items = [Item]()
     
     var body: some View {
+        ZStack {
+            List(self.items, id: \.uuid) { item in
+                Text(item.value)
+            }
+            
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
                     Button(action: {
                         self.items.append(Item(value: "Item"))
                     }, label: {
@@ -32,6 +41,9 @@ struct TransmitFAB: View {
                             radius: 3,
                             x: 3,
                             y: 3)
+                }
+            }
+        }
     }
 }
 
