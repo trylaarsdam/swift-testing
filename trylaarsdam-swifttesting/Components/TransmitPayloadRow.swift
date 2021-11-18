@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TransmitPayloadRow: View {
+
     var body: some View {
         HStack {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
@@ -63,3 +64,4 @@ struct TransmitPayloadRow_Previews: PreviewProvider {
         TransmitPayloadRow()
     }
 }
+

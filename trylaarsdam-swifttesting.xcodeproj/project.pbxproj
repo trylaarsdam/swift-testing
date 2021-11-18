@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		337BEABB2746F159008077CC /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEABA2746F159008077CC /* AppColors.swift */; };
 		337BEABD2746F2D4008077CC /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEABC2746F2D4008077CC /* TitleBar.swift */; };
+		337BEABF2746FC12008077CC /* TextInputAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEABE2746FC12008077CC /* TextInputAlert.swift */; };
 		33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */; };
 		33BCD253273D9F3500F3FFFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCD252273D9F3500F3FFFB /* MainView.swift */; };
 		33BCD255273D9F3600F3FFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BCD254273D9F3600F3FFFB /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		337BEABA2746F159008077CC /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		337BEABC2746F2D4008077CC /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
+		337BEABE2746FC12008077CC /* TextInputAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputAlert.swift; sourceTree = "<group>"; };
 		33BCD24D273D9F3500F3FFFB /* trylaarsdam-swifttesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trylaarsdam-swifttesting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BCD250273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trylaarsdam_swifttestingApp.swift; sourceTree = "<group>"; };
 		33BCD252273D9F3500F3FFFB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				33BCD27A2740C01600F3FFFB /* CircleTempImage.swift */,
+				337BEABE2746FC12008077CC /* TextInputAlert.swift */,
 			);
 			path = TempObjects;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				33BCD283274440E800F3FFFB /* ConnectTab.swift in Sources */,
 				33BCD27E27443D6A00F3FFFB /* ParamsTab.swift in Sources */,
 				337BEABD2746F2D4008077CC /* TitleBar.swift in Sources */,
+				337BEABF2746FC12008077CC /* TextInputAlert.swift in Sources */,
 				33ED495D27444FC00063D6A1 /* TransmitMenu.swift in Sources */,
 				33BCD251273D9F3500F3FFFB /* trylaarsdam_swifttestingApp.swift in Sources */,
 				33BCD2882744464900F3FFFB /* RoundedBorder.swift in Sources */,
