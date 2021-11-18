@@ -13,11 +13,11 @@ struct ParamsTab: View {
             Text("Parameters")
                 .font(.title)
                 .bold()
-                .frame(width:500, height: 20).padding()
+                .frame(width:500, height: 70, alignment: .bottom).padding()
                 .fixedSize(horizontal: true, vertical: false)
                 .background(kTopBarConnectedColor)
+                .ignoresSafeArea()
 
-            Spacer()
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Transmitter SF")
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Gateway SF")
             ParameterLine(value: 1, min: 1, max: 4, step: 1, name: "Coding Rate")
@@ -25,7 +25,8 @@ struct ParamsTab: View {
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Transmit Interval")
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Initial Delay")
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Number of TX")
-            TransmitPayloadRow()
+            TransmitPayloadRow().padding(.bottom)
+            Spacer()
         }
     }
 }

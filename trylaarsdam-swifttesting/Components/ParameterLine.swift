@@ -21,7 +21,7 @@ struct ParameterLine: View {
             }
             Text("\(value)").fixedSize(horizontal: true, vertical: false).frame(width: 50, height: 45, alignment: .center).font(.system(size:20)).addBorder(Color.secondary, width: 3, cornerRadius: 10)
 
-        }.padding(10).addBorder(Color.purple, width: 3, cornerRadius: 10).padding(4)
+        }.padding(10).addBorder(Color.blue, width: 3, cornerRadius: 10).padding(4)
     }
 }
 

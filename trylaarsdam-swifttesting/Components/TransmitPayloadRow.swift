@@ -20,7 +20,7 @@ struct TransmitPayloadRow: View {
                 }
             }.padding()
                 .frame(width: 140, height: 70)
-            .background(Color.purple)
+            .background(Color.blue)
             .addBorder(Color.secondary, width: 0, cornerRadius: 20)
             .fixedSize(horizontal: true, vertical: true)
             
@@ -36,7 +36,7 @@ struct TransmitPayloadRow: View {
                 }
             }
             .frame(width: 140, height: 70)
-            .background(Color.purple)
+            .background(Color.blue)
             .addBorder(Color.secondary, width: 0, cornerRadius: 20)
             .fixedSize(horizontal: true, vertical: true)
             
