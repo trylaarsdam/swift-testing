@@ -8,4 +8,6 @@
 import Foundation
 import SwiftUI
 
-var offWhite = Color(red: 0.8078, green: 0.7647, blue: 0.7843)
+var kOffWhite = Color(red: 0.8078, green: 0.7647, blue: 0.7843)
+var kTopBarConnectedColor = Color(.green)
+var kTopBarDisconnectedColor = Color(.red)

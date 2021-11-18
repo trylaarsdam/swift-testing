@@ -13,13 +13,13 @@ struct TransmitPayloadRow: View {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 VStack {
                     Text("Payload")
-                        .foregroundColor(offWhite)
+                        .foregroundColor(kOffWhite)
                     Text("data")
                         .foregroundColor(.white)
                         .bold()
                 }
             }.padding()
-                .frame(width: 170, height: 70)
+                .frame(width: 140, height: 70)
             .background(Color.purple)
             .addBorder(Color.secondary, width: 0, cornerRadius: 20)
             .fixedSize(horizontal: true, vertical: true)
@@ -29,19 +29,32 @@ struct TransmitPayloadRow: View {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 VStack {
                     Text("Description")
-                        .foregroundColor(offWhite)
-                    Text("data")
+                        .foregroundColor(kOffWhite)
+                    Text("longer description")
                         .foregroundColor(.white)
                         .bold()
                 }
-            }.padding()
-                .frame(width: 170, height: 70)
+            }
+            .frame(width: 140, height: 70)
             .background(Color.purple)
             .addBorder(Color.secondary, width: 0, cornerRadius: 20)
             .fixedSize(horizontal: true, vertical: true)
             
-        }
-        .padding()
+            Button(action: {
+            }) {
+                Image(systemName: "antenna.radiowaves.left.and.right.circle")
+                .font(.system(.largeTitle))
+                .frame(width: 70, height: 70)
+                .foregroundColor(Color.white)
+            }
+            .background(Color.blue)
+            .cornerRadius(38.5)
+            .shadow(color: Color.black.opacity(0.3),
+                    radius: 3,
+                    x: 3,
+                    y: 3)
+            
+        }.padding(.horizontal).padding(.bottom)
     }
 }
 

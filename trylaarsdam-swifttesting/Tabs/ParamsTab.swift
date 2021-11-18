@@ -11,6 +11,12 @@ struct ParamsTab: View {
     var body: some View {
         VStack{
             Text("Parameters")
+                .font(.title)
+                .bold()
+                .frame(width:500, height: 20).padding()
+                .fixedSize(horizontal: true, vertical: false)
+                .background(kTopBarConnectedColor)
+
             Spacer()
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Transmitter SF")
             ParameterLine(value: 7, min: 7, max: 12, step: 1, name: "Gateway SF")

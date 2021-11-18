@@ -33,7 +33,6 @@ struct MainView: View {
                  Image(systemName: "esim")
                  Text("Connect")
               }
-            ConnectTab()
 //            toggleSheet()
 //                .tabItem {
 //                    Image(systemName: "antenna.radiowaves.left.and.right.circle.fill")
