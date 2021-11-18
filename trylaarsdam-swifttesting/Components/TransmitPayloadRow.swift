@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct TransmitPayloadRow: View {
-
+    @State private var showDialog = false
+    @State var text = ""
+    
     var body: some View {
         HStack {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
@@ -40,6 +42,7 @@ struct TransmitPayloadRow: View {
             .background(Color.blue)
             .addBorder(Color.secondary, width: 0, cornerRadius: 20)
             .fixedSize(horizontal: true, vertical: true)
+
             
             Button(action: {
             }) {
@@ -56,7 +59,7 @@ struct TransmitPayloadRow: View {
                     y: 3)
             
         }.padding(.horizontal).padding(.bottom)
-    }
+   }
 }
 
 struct TransmitPayloadRow_Previews: PreviewProvider {
